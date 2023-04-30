@@ -1,0 +1,325 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.top-bar {
+    overflow: hidden;
+    width: 100%;
+    background-color: red;
+    height: 60px;
+    position: relative;
+}
+
+.logo {
+    display: inline-block;
+    color: red;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 5px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 33px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.login {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.create {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+}
+
+.login-create {
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+.top-heading {
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.filter-box {
+    position: relative;
+    width: 400px;
+    height: 650px;
+    margin-top: 40px;
+    margin-left: 100px;
+    box-shadow: 0 1px 2px 0 black;
+    display: inline-block;
+}
+
+.filter-heading {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.subheads-selectlocation{
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.locations-box {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    width: 330px;
+    height: 50px;
+}
+
+.subheads-cuisine{
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.filter-options-cuisine {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.subheads-cost42{
+    position: absolute;
+    top: 320px;
+    left: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.filter-options-cost42 {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.subheads-sort{
+    position: absolute;
+    top: 470px;
+    left: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.filter-options-sort{
+    position: absolute;
+    top: 490px;
+    left: 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.menu-section {
+    position: relative;
+    height: auto;
+    width: auto;
+}
+
+.result-box {
+    position: absolute;
+    border: transparent;
+    height: 700px;
+    width: 70%;
+    top: 70px;
+    left: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.result-card {
+    position: relative;
+    box-shadow: 0px 1px 2px 0px black;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.result-image {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 100px;
+    width: 150px;
+    border-radius: 30px;
+}
+
+.shop-name {
+    font-size: 120%;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 230px;
+}
+
+.shop-area {
+    position: absolute;
+    top: 60px;
+    left: 230px;
+}
+
+.shop-address {
+    position: absolute;
+    top: 100px;
+    left: 230px;
+}
+
+.cuisine-subhead-1 {
+    color: darkgray;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+}
+
+.cuisine-subhead-2 {
+    color: darkgray;
+    position: absolute;
+    top: 240px;
+    left: 20px;
+}
+
+.cuisine-result-1 {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
+.cuisine-result-2 {
+    position: absolute;
+    top: 240px;
+    left: 150px;
+}
+
+.menu-boxes {
+    width: max-content;
+    height: max-content;
+}
+
+.page-number {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    top: 750px;
+    left: 50%;
+    display: hover;
+}
+
+.page-button:hover {
+    background-color: gray;
+}
+
+.page-button {
+    border: 1px solid gray;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 2px;
+}
+
+.btn {
+    width: 400px;
+    position: absolute;
+    left: 5.1%;
+    top: 70px;
+}
+
+
+@media (max-width:976px) {
+    .result-box {
+        position: absolute;
+        border: transparent;
+        height: 700px;
+        width: 70%;
+        top: 700px;
+        left: 28%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .filter-box {
+        position: relative;
+        width: 400px;
+        height: 650px;
+        margin-top: 150px;
+        margin-left: 100px;
+        box-shadow: 0 1px 2px 0 black;
+    }
+
+
+    .result-card {
+        width: 80%;
+        height: 70%;
+        margin-top: 8%;
+        right: 10%;
+    }
+
+    .shop-area {
+        position: absolute;
+        top: 50px;
+    }
+
+    .shop-address {
+        position: absolute;
+        top: 80px;
+    }
+
+    .cuisine-subhead-1,
+    .cuisine-result-1 {
+        position: absolute;
+        top: 160px;
+    }
+
+    .cuisine-subhead-2,
+    .cuisine-result-2 {
+        position: absolute;
+        top: 190px;
+    }
+
+    .menu-boxes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .filter-box,
+    .filter-heading,
+    .subheads,
+    .location-dropdown,
+    .filter-options {
+        height: 10%;
+    }
+
+    .page-number {
+        right: 50%;
+    }
+    .btn{
+        position: absolute;
+        left: 203px;
+        width: 550px;
+    }
+
+}
