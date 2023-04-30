@@ -1,0 +1,13 @@
+h1 {
+    color: blue;
+    background-color: palevioletred;
+    font-size: 85px;
+    font-family: cursive;
+}
+
+.paragraph {
+    color: blueviolet;
+    background-color: greenyellow;
+    font-size: 45px;
+    font-family: monospace;
+}
