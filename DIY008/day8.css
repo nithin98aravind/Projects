@@ -1,0 +1,36 @@
+.bimage {
+    background-image: url('./food.jpg');
+    background-position: fixed;
+    height: 800px;
+    background-color: aqua;
+    background-size: cover;
+}
+
+.bottomdiv {
+    background-color: red;
+    height: 60px;
+}
+
+.innerdiv {
+    border: 3px solid blue;
+    height: 55px;
+    width: 80%;
+    margin: auto;
+    text-align: right;
+    line-height: 60px;
+}
+
+.login {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.create {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
