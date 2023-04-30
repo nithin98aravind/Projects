@@ -1,0 +1,80 @@
+.boundary {
+    height: 750px;
+    width: 750px;
+    border: 2px solid blue;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.task-name {
+    border: transparent;
+    color: crimson;
+    font-size: 50px;
+}
+.box{
+    padding-top: 350px;
+    padding-left: 250px;
+}
+.square {
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+}
+
+.circle {
+    border: 2px solid green;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.s1 {
+    top: 0;
+    left: 0;
+}
+
+.s2 {
+    top: 0;
+    right: 0;
+}
+
+.s3 {
+    bottom: 0;
+    left: 0;
+}
+
+.s4 {
+    bottom: 0;
+    right: 0;
+}
+
+.c1 {
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.c2 {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.c3 {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.c4 {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
